@@ -1,2 +1,4 @@
 title: "The Grandest Portfolio Page"
 description: "A Primordial Stone To A Grander Monument"
+plugins:
+  - jekyll-include-cache 
