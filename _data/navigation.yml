@@ -1,4 +1,4 @@
 - name: Home Page
-link: /
+link: / or /index.html
 - name: About me?
 link: /about.html
