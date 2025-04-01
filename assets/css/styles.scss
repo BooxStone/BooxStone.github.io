@@ -1,3 +1,19 @@
 ---
 ---
 @import "main";
+
+body {
+
+  font-family: 'Inconsolata', monospace;
+
+  font-weight: 400; /* Example: set a default font weight */
+
+}
+
+h1, h2, h3 {
+
+  font-family: 'Inconsolata', monospace;
+
+  font-weight: 700; /* Example: set a different font weight for headings */
+
+}
