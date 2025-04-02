@@ -26,3 +26,41 @@
   --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
   --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+}
+@media (max-width: 468px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+.flex_center {
+  justify-content: center;
+}
+.flex_around {
+  justify-content: space-around;
+}
+.flex_between {
+  justify-content: space-between;
+}
+@media (max-width: 468px) {
+  .flex_around {
+    justify-content: center;
+  }
+  .flex_between {
+    justify-content: center;
+  }
+}
+.text_center {
+  text-align: center;
+}
+.text_right {
+  text-align: right;
+}
+
+.padding-top-3xs {
+  padding: var(--space-3xs);
+}
