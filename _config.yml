@@ -1,6 +1,9 @@
 title: "The Grandest Portfolio Page"
 description: "A Primordial Stone To A Grander Monument"
 
+github_url: "https://github.com/BooxStone/BooxStone.github.io.git"
+github_icon: "/assets/css/images/github-logo-svgrepo-com.svg"
+
 plugins:
 - jekyll-sitemap
 - jekyll-feed
