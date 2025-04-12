@@ -45,3 +45,14 @@ h1, h2, h3 {
 section {
   padding: var(--space-2xl) var(--space-l);
 }
+
+section#hero {
+background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+url("/assets/css/images/Background.png");
+padding-bottom: 4px;
+background-size: cover;
+background-position: top;
+background-attachment: scroll;
+color: #fafafa;
+--color-accent: #8a2be2;
+}
