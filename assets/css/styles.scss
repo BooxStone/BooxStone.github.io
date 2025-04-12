@@ -40,20 +40,3 @@ h1, h2, h3 {
 .hero_social {
   padding-top: var(--space-3xl);
 }
-
-/* General styling and where the magic happens */
-section {
-  padding: var(--space-2xl) var(--space-l);
-}
-
-section#hero {
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("../images/Background.png");  /* Adjusted path */
-  padding-bottom: 4px;
-  background-size: cover;
-  background-position: top;
-  background-attachment: scroll;
-  color: #fafafa;
-  --color-accent: #8a2be2;
-  height: 400px;  /* Temporary height for testing */
-}
