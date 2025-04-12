@@ -3,7 +3,12 @@
 @import "main";
 
 body {
-  background: url("assets/css/images/bkg.png");
+   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+    url("assets/css/images/bkg.png");  /* Adjusted path */
+  padding-bottom: 4px;
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
   font-family: 'Inconsolata', monospace;
   font-weight: 400; /* Example: set a default font weight */
 }
@@ -39,13 +44,4 @@ h1, h2, h3 {
 /* General styling and where the magic happens */
 section {
   padding: var(--space-2xl) var(--space-l);
-}
-
-section#hero {
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("assets/css/images/bkg.png");  /* Adjusted path */
-  padding-bottom: 4px;
-  background-size: cover;
-  background-position: top;
-  background-attachment: scroll;
 }
