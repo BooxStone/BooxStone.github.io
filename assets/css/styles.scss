@@ -28,3 +28,20 @@ h1, h2, h3 {
   text-decoration: none;
 }
     
+/* Just adds more personality and styles the Home Page */
+.hero_content {
+  padding: var(--space-3xl) 0;
+}
+
+.hero_content h1 {
+  margin-bottom: var(--space-s);
+}
+
+.hero_social {
+  padding-top: var(--space-3xl);
+}
+
+/* General styling and where the magic happens */
+section {
+  padding: var(--space-2xl) var(--space-l);
+}
