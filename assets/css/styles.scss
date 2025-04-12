@@ -3,19 +3,15 @@
 @import "main";
 
 body {
-
+  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+    url("assets/css/images/bkg.png");
   font-family: 'Inconsolata', monospace;
-
   font-weight: 400; /* Example: set a default font weight */
-
 }
 
 h1, h2, h3 {
-
   font-family: 'Inconsolata', monospace;
-
   font-weight: 700; /* Example: set a different font weight for headings */
-
 }
 
 /* Style the header */
