@@ -47,13 +47,13 @@ section {
 }
 
 section#hero {
-background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-url("../images/Background.png");
-padding-bottom: 4px;
-background-size: cover;
-background-position: top;
-background-attachment: scroll;
-color: #fafafa;
---color-accent: #8a2be2;
-  height: 400px;
+  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+    url("../images/Background.png");  /* Adjusted path */
+  padding-bottom: 4px;
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+  color: #fafafa;
+  --color-accent: #8a2be2;
+  height: 400px;  /* Temporary height for testing */
 }
