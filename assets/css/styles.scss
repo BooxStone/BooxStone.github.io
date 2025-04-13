@@ -3,10 +3,7 @@
 @import "main";
 
 body {
-  background-image: url("assets/css/images/bkg.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Set height to ensure visibility */
+  background-image: var(--background-image);
   font-family: 'Inconsolata', monospace;
   font-weight: 400; /* Example: set a default font weight */
 }
