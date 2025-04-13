@@ -3,7 +3,8 @@
 @import "main";
 
 body {
-   background: url("assets/css/images/bkg.png");  /* Adjusted path */
+   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
+    url("assets/css/images/bkg.png");  /* Adjusted path */
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
