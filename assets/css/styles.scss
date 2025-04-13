@@ -3,14 +3,6 @@
 @import "main";
 
 body {
-   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("assets/css/images/bkg.png");  /* Adjusted path */
-  padding-bottom: 4px;
-  background-size: cover;
-  background-position: top;
-  background-attachment: scroll;
-   color: #fafafa;
-  --color-accent: #8a2be2;
   font-family: 'Inconsolata', monospace;
   font-weight: 400; /* Example: set a default font weight */
 }
