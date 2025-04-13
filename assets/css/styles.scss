@@ -39,10 +39,3 @@ h1, h2, h3 {
 section {
   padding: var(--space-2xl) var(--space-l);
 }
-
-section.hero {
-  background-image: url("assets/css/images/bkg.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Set height to ensure visibility */
-}
