@@ -1,6 +1,7 @@
 ---
 name: This very website
 author: Maxwell J. Jones
+layout: default
 ---
 
 In case it didn't dawn on you by now, I made this entire website using GitHub pages, HTML, SCSS, Ruby, and a little bit of that good old magical sprinkle of JavaScript just to make things pop! 
