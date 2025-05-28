@@ -1,7 +1,9 @@
 ---
-name: This very website
+layout: default
+title: This very website
 author: Maxwell J. Jones
-background_image: assets/css/images/bkg.jpg
+date: 2024-05-27
+background_image: /assets/css/images/bkg.jpg
 ---
 
 In case it hasn't dawned on you yet, I created this entire website using GitHub Pages, HTML, SCSS, Ruby, and a sprinkle of JavaScript to make things pop! 
