@@ -3,7 +3,7 @@ layout: default
 title: This very website
 author: Maxwell J. Jones
 date: 2024-05-27
-background_image: /assets/css/images/bkg.jpg
+background_image: https://raw.githubusercontent.com/BooxStone/BooxStone.github.io/refs/heads/main/assets/css/images/bkg.jpg
 ---
 
 In case it hasn't dawned on you yet, I created this entire website using GitHub Pages, HTML, SCSS, Ruby, and a sprinkle of JavaScript to make things pop! 
