@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div class="post-header" {% if page.background_image %}style=background-image: url({{ page.background_image }}; background-size: cover; background-position: center;{% endif %}>
-<h>{{ page.title }}</h>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<div class="post-header" {% if page.background_image %} style="background-image: url('{{ page.background_image }}'); background-size: cover; background-position: center;" {% endif %}>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 </div>
 
 <div class="post-content">
-{{content}}
+  {{ content }}
 </div>
