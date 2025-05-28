@@ -2,7 +2,6 @@
 layout: default
 title: This very website
 author: Maxwell J. Jones
-date: 2024-05-27
 background_image: https://raw.githubusercontent.com/BooxStone/BooxStone.github.io/refs/heads/main/assets/css/images/bkg.jpg
 ---
 
